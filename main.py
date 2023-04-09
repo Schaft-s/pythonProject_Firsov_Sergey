@@ -29,7 +29,7 @@ class Game(Ursina):
         self.CUBES = [Entity(model='models/custom_cube', texture='textures/rubik_texture', position=pos) for pos
                       in self.SIDE_POSITIONS]  # создание самих кубиков
 
-        self.trans_to_front()   # задание отсчёта для поворотов
+        self.trans_to_front()  # задание отсчёта для поворотов
 
         self.animation_time = 0.3
 
@@ -65,9 +65,10 @@ class Game(Ursina):
                 cube.parent = self.PARENT
                 exec(f'self.PARENT.rotation_{rotation_axis[1]} = 90')
 
-    def create_sensors(self): # создание сенсоров для смены стороны вращения + перемешивание
+    def create_sensors(self):  # создание сенсоров для смены стороны вращения + перемешивание
 
-        create_sensor = lambda name, pos, scale, texture: Entity(name=name, position=pos, model='sphere', texture=texture,
+        create_sensor = lambda name, pos, scale, texture: Entity(name=name, position=pos, model='sphere',
+                                                                 texture=texture,
                                                                  scale=scale, collider='box')
         self.random_st_sensor = create_sensor(name='LEFT', pos=(-6, -2, 0), scale=(0.5, 0.5, 0.5),
                                               texture='textures/blue')
@@ -85,7 +86,7 @@ class Game(Ursina):
     def switch_mode(self):  # смена направления вращения
         self.mode_of_spin = not self.mode_of_spin
         msg = (f"{'Normal spin mode' if self.mode_of_spin else 'UNNormal spin mode ON'}"
-                     f" (to switch - press middle mouse button)").strip()
+               f" (to switch - press middle mouse button)").strip()
         self.message.text = msg
 
     def switch_trigger(self):
