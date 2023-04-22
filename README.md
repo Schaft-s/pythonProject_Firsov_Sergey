@@ -30,11 +30,11 @@
  it's like you're looking at this side_  
  - To randomly shuffle the cube - click on the white sensor _(Random)_ under cube 
  - About command mode:
-   - to enter in it  -> press 'r'
-   - to go out -> f
-   - to write  -> same (dawsqe)
-   - to write "-"  -> g _(when you write '-' -> next rotate will be in another side (counterclockwise or clockwise)_
-   - to delete  -> h
+   - to enter in it &emsp;  -> press 'r'
+   - to go out &emsp; &nbsp; &nbsp; -> f
+   - to write &emsp; &emsp; &nbsp; -> same (dawsqe)
+   - to write "-"  &emsp; &nbsp; -> g _(when you write '-' -> next rotate will be in another side (counterclockwise or clockwise)_
+   - to delete &emsp;&emsp; &nbsp;  -> h
  
  
  
