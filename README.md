@@ -8,9 +8,9 @@
  - You can change the direction of rotation of the side by pressing the middle mouse button  
  - You can randomly shuffle the cube by clicking on the sensor under it  
  - **_You must install Ursian to use this app (pip install ursina)_**
+ - The possibility of recording several commands at once and playing them together **(new)**
  
 **In development:**    
-   - The possibility of recording several commands at once and playing them together   
    - Adding standard formulas for speedcubing    
    - Timer    
     
@@ -29,6 +29,12 @@
  _for example: if you spin cubic and now look at the side in which center is red - push red sencor near you - now all rotations will be understandable -
  it's like you're looking at this side_  
  - To randomly shuffle the cube - click on the white sensor _(Random)_ under cube 
+ - About command mode:
+   - to enter in it  -> press 'r'
+   - to go out -> f
+   - to write  -> same (dawsqe)
+   - to write "-"  -> g _(when you write '-' -> next rotate will be in another side (counterclockwise or clockwise)_
+   - to delete  -> h
  
  
  
